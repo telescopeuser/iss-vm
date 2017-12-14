@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0 
+Comment=This is launcher 
+Exec=/home/iss-linux-lab/.DoNotDelete/start-rstudio.sh
+Terminal=false 
+Type=Application
+Name[en_SG]=start-rstudio
