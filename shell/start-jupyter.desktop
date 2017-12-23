@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0 
-Comment=This is launcher 
-Exec=/home/iss-user/.DoNotDelete/start-jupyter.sh
-Terminal=true 
-Type=Application
-Name[en_SG]=start-jupyter

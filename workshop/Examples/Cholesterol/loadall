@@ -1,6 +1,0 @@
-; Load add NCEP rules and run all test patients
-(load date.clp)
-(load project.clp)
-(batch patdata1)
-(batch patdata2)
-(run)
