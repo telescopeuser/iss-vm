@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0 
+Comment=This is launcher 
+Exec=rstudio
+#Icon=/home/iss-user/.DoNotDelete/png-RStudio.png
+Icon=/home/iss-user/.DoNotDelete/ico-RStudio.ico
+Terminal=false
+Type=Application
+Name[en_US]=R-Studio
