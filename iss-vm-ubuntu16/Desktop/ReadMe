@@ -1,9 +1,10 @@
-linux user id		: iss-user
-password		: iss-user
+linux machine name		: iss-vm
 
-linux machine name	: iss-vm
+linux user id			: iss-user
+linux user password		: iss-user
 
-anaconda environment	: iss-env
+anaconda python 3 environment	: iss-env
+anaconda python 2 environment	: iss-env-py2
 
 VirtualBox shared folder in guest (iss-vm linux) operating system:
 /media/sf_vm_shared_folder
@@ -11,6 +12,6 @@ VirtualBox shared folder in guest (iss-vm linux) operating system:
 VirtualBox shared folder in host operating system:
 D:\0020_vm_disk\vm_shared_folder
 
-display linux/ubuntu keyboard shortcuts:
-Long hold/press of SUPER Key (WINDOWS Key)
+To display linux/ubuntu keyboard shortcuts:
+Long hold of SUPER Key (WINDOWS Key)
 
