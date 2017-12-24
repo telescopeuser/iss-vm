@@ -1,9 +1,13 @@
+#!/usr/bin/env xdg-open
 [Desktop Entry]
+# The format of this file is specified at
+# http://freedesktop.org/Standards/desktop-entry-spec/
+# The entries are in the order they are listed in version 0.9.4
 Version=1.0 
 Comment=This is launcher 
 Exec=/home/iss-user/.DoNotDelete/start-clips.sh
-Icon=/home/iss-user/.DoNotDelete/png-clips.png
-#Icon=/home/iss-user/.DoNotDelete/ico-RStudio.ico
+Icon=clips.xpm
+#Icon=/home/iss-user/.DoNotDelete/png-clips.png
 Terminal=true 
 Type=Application
 Name[en_US]=CLIPS
