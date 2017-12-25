@@ -90,51 +90,49 @@ wajig install libgtk2.0-dev
 sudo apt-get update
 sudo apt-get install libxml2-dev
 
+# configure: error: Package requirements (ggobi >= 2.1.6) were not met: No package 'ggobi' found
+# for rattle: rggobi
+sudo aptitude install ggobi
+
 # finally:
 install.packages("rattle")
 
 
-
-
-
-apt-get update
-apt-get install default-jre
+sudo apt-get update
+sudo apt-get install default-jre
 sudo apt-get install default-jdk
-apt-get install libreoffice-java-common
+sudo apt-get install libreoffice-java-common
 nlpsolver.oxt
 
+conda update conda
+
+update wallpaper
 
 user account update
 iss-user
 iss-admin
 
-
 create conda environment:
-root:
-conda update conda
-
 # python 3.6
 conda create -n iss-env python=3.6 anaconda
+# python 2.7 # conda install ipykernel
+conda create -n iss-env-py2 python=2.7 anaconda
+
 source activate iss-env
 
-conda install scikitlearn
 conda install matplotlib
-conda install seaborn
 conda install tensorflow
 conda install keras
+pip install jieba
 pip install itchat
 
-install r-kernel
-conda install -c r r-kernel
-conda install -c r r-essential
+# R in Ananconda
+https://samrelton.wordpress.com/2015/07/02/rconda/
+conda install -c r r
+conda install r-essentials
+conda update r-essentials
+conda install -c r r-irkernel
 conda install -c r r-shiny
 conda install -c r r-plotly
-
-
-
-
-# python 2.7
-conda create -n iss-env python=2.7 numpy pandas
-
-conda install ipykernel
+conda install -c r r-car
 
