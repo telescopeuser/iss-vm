@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0 
-Comment=This is launcher 
-Exec=gnome-sudoku
-#Icon=/home/iss-user/.DoNotDelete/png-gnome-sudoku.png
-Icon=/home/iss-user/.DoNotDelete/png-gnome-se.png
-Terminal=false
-Type=Application
-Name[en_US]=Boring lecture(r) ?
