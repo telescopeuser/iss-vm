@@ -1,0 +1,140 @@
+install ubuntu 16.04
+
+restart
+eject cd
+
+workplace / show desk
+power
+lock and password
+user id display
+language support
+
+apt-get update
+apt-get upgrade
+
+create superuser iss-admin
+
+disable guest account login:
+sudo gedit /etc/lightdm/lightdm.conf
+allow-guest=false
+sudo restart lightdm
+
+virtual-box client
+restart
+device shared clipboard: bi-directional
+device shared folder
+sudo usermod -G vboxsf -a iss-user
+sudo usermod -G vboxsf -a iss-admin
+restart
+
+install:
+google chrome
+set blank keyring
+/usr/share/applications
+set incognito desktop shortcut
+chmod ugo+r google-chrome-org.desktop
+chmod ugo-x google-chrome-org.desktop
+
+import bookmark
+
+install git
+apt-get install git
+
+clips
+sudo apt-get install clips
+
+copied .DoNotDelete & desktop shortcuts
+update permission of all files in .DoNotDelete: check box: Allow executing file as program
+
+download anaconda
+bash /home/iss-user/Download/Anaconda3-5.0.1-Linux-x86_64.sh
+
+r & r studio
+# find R version 3.4 by upgrade ubuntu library:
+# sudo apt-get install r-base
+# sudo apt-get install r-base-dev
+
+# https://askubuntu.com/questions/431380/how-do-i-install-upgrade-r-base-to-the-latest-version
+sudo -H gedit /etc/apt/sources.list
+deb http://cran.rstudio.com/bin/linux/ubuntu xenial/
+deb http://www.stats.bris.ac.uk/R/bin/linux/ubuntu xenial/
+# sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
+sudo apt-get update
+sudo apt-get upgrade
+
+sudo apt-get install r-base
+sudo apt-get install r-base-dev
+
+
+# Download and Install RStudio
+sudo apt-get install gdebi-core
+wget https://download1.rstudio.org/rstudio-xenial-1.1.383-amd64.deb
+sudo gdebi rstudio-xenial-1.1.383-amd64.deb
+rm rstudio-xenial-1.1.383-amd64.deb
+
+### 'libssl-dev' for 'openssl'
+sudo apt-get install libssl-dev
+
+### 'libcurl4-openssl-dev' for curl
+sudo apt-get install libcurl4-openssl-dev
+
+in R Studio, install.packages("xxx")
+shiny
+ployly (openssl, curl, httr)
+
+# for rattle: GTK version 2.8.0 & RGtk2
+sudo apt-get install wajig 
+wajig install libgtk2.0-dev
+
+# for rattle: XML
+sudo apt-get update
+sudo apt-get install libxml2-dev
+
+# finally:
+install.packages("rattle")
+
+
+
+
+
+apt-get update
+apt-get install default-jre
+sudo apt-get install default-jdk
+apt-get install libreoffice-java-common
+nlpsolver.oxt
+
+
+user account update
+iss-user
+iss-admin
+
+
+create conda environment:
+root:
+conda update conda
+
+# python 3.6
+conda create -n iss-env python=3.6 anaconda
+source activate iss-env
+
+conda install scikitlearn
+conda install matplotlib
+conda install seaborn
+conda install tensorflow
+conda install keras
+pip install itchat
+
+install r-kernel
+conda install -c r r-kernel
+conda install -c r r-essential
+conda install -c r r-shiny
+conda install -c r r-plotly
+
+
+
+
+# python 2.7
+conda create -n iss-env python=2.7 numpy pandas
+
+conda install ipykernel
+
