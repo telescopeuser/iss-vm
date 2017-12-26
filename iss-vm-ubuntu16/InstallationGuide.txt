@@ -125,6 +125,7 @@ conda install tensorflow
 conda install keras
 pip install jieba
 pip install itchat
+pip install glmnet
 
 # R in Ananconda
 https://samrelton.wordpress.com/2015/07/02/rconda/
@@ -136,3 +137,5 @@ conda install -c r r-shiny
 conda install -c r r-plotly
 conda install -c r r-car
 
+# dot command not found
+sudo apt-get install graphviz
