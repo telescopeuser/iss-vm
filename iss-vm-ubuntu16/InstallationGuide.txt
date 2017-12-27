@@ -105,6 +105,7 @@ sudo apt-get install libreoffice-java-common
 nlpsolver.oxt
 
 conda update conda
+conda update anaconda-navigator
 
 update wallpaper
 
@@ -112,30 +113,42 @@ user account update
 iss-user
 iss-admin
 
+anaconda-navigator
+
 create conda environment:
 # python 3.6
-conda create -n iss-env python=3.6 anaconda
-# python 2.7 # conda install ipykernel
-conda create -n iss-env-py2 python=2.7 anaconda
+conda create -n iss-env-py3 python=3.6 anaconda
 
-source activate iss-env
+source activate iss-env-py3
 
+conda install scikit-learn
 conda install matplotlib
 conda install tensorflow
 conda install keras
+conda install seaborn
+conda install pydot
+conda install xlrd
+
+pip install pandas
 pip install jieba
 pip install itchat
 pip install glmnet
 
-# R in Ananconda
-https://samrelton.wordpress.com/2015/07/02/rconda/
-conda install -c r r
 conda install r-essentials
-conda update r-essentials
-conda install -c r r-irkernel
-conda install -c r r-shiny
-conda install -c r r-plotly
-conda install -c r r-car
+conda install r r-shiny
+conda install r r-plotly
+conda install r r-car
+
+# python 2.7 # 
+conda create -n iss-env-py2 python=2.7 anaconda
+
+source activate iss-env-py2
+
+conda install requests
+pip install itchat gTTs google-api-python-client
+
+
+
 
 # dot command not found
 sudo apt-get install graphviz
