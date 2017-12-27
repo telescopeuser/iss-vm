@@ -1,4 +1,5 @@
 #!/usr/bin/env xdg-open
+
 [Desktop Entry]
 # The format of this file is specified at
 # http://freedesktop.org/Standards/desktop-entry-spec/
@@ -10,4 +11,4 @@ Icon=clips.xpm
 #Icon=/home/iss-user/.DoNotDelete/png-clips.png
 Terminal=true 
 Type=Application
-Name[en_US]=CLIPS
+Name[en_SG]=CLIPS

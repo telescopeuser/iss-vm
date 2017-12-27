@@ -139,3 +139,4 @@ conda install -c r r-car
 
 # dot command not found
 sudo apt-get install graphviz
+
