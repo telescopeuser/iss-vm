@@ -1,1 +1,0 @@
-/home/iss-user/.config/autostart/gsettings.desktop
