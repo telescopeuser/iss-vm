@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0 
+Comment=This is launcher 
+#Exec=/home/iss-user/.DoNotDelete/start-anaconda-navigator.sh
+Exec=bash -c 'export PATH="/home/iss-user/anaconda3/bin:$PATH" && /home/iss-user/anaconda3/bin/anaconda-navigator'
+Icon=/home/iss-user/.DoNotDelete/png-anaconda-navigator.png
+Terminal=false
+Type=Application
+Name[en_SG]=Anaconda-Navigator

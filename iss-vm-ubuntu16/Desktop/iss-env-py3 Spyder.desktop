@@ -5,4 +5,4 @@ Exec=/home/iss-user/.DoNotDelete/start-spyder.sh
 Icon=/home/iss-user/.DoNotDelete/png-spyder.png
 Terminal=false 
 Type=Application
-Name[en_SG]=Spyder-py3
+Name[en_SG]=iss-env-py3 Spyder

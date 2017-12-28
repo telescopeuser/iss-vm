@@ -1,8 +1,8 @@
 [Desktop Entry]
 Version=1.0 
 Comment=This is launcher 
-Exec=/home/iss-user/.DoNotDelete/start-jupyter-py3.sh
+Exec=/home/iss-user/.DoNotDelete/start-jupyter-py2.sh
 Icon=/home/iss-user/.DoNotDelete/png-jupyter.png
 Terminal=true 
 Type=Application
-Name[en_SG]=Jupyter-py3
+Name[en_SG]=iss-env-py2 Jupyter
