@@ -220,6 +220,9 @@ dconf update
 # https://stackoverflow.com/questions/10374520/gsettings-with-cron
 -rwxrwxr-x  1 root     root         522 Dec 28 23:29 crontab_wp.sh*
 
+$ nano /etc/cron.deny
+# add to prevent running cron crontab -e
+iss-user
 
 
 # reference:
