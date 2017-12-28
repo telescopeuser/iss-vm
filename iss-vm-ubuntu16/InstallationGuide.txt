@@ -153,3 +153,11 @@ pip install itchat gTTs google-api-python-client
 # dot command not found
 sudo apt-get install graphviz
 
+
+# install MySQL
+https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04
+
+sudo apt-get update
+sudo apt-get install mysql-server
+mysql_secure_installation
+
