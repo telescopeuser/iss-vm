@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=gsettings set org.gnome.desktop.background picture-uri "file:///home/iss-user/.DoNotDelete/ISS_Wallpaper.bmp"
+Hidden=true
+NoDisplay=true
+X-GNOME-Autostart-enabled=true
+Name[en_SG]=Copyright (c) 2018 GU Zhan (Sam)
+Name=Copyright (c) 2018 GU Zhan (Sam)
+Comment[en_SG]=zhan.gu@nus.edu.sg
+Comment=zhan.gu@nus.edu.sg
