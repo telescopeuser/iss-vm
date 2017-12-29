@@ -242,7 +242,19 @@ chmod o-rwx /home/iss-user/.DoNotDelete/ISS_Wallpaper.bmp
 chmod o+rx /home/iss-user/.DoNotDelete/ISS_Wallpaper.bmp
 
 
+# 2017 12 29
+# hide invalid anaconda-navigator from Dash search:
+https://askubuntu.com/questions/844534/hide-specific-applications-from-dash
+Find the corresponding anaconda-navigator.desktop file in /usr/share/applications
+Copy the file to ~/.local/share/applications
+Open the file with (e.g.) gedit
+Add the following line before the line (if it exists) Actions=, but below the first line:
+Hidden=true
+
+
+################################################
 # reference:
+################################################
 
 # grant/remove sudo access for iss-user:
 root
