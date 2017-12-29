@@ -303,8 +303,7 @@ To display linux/ubuntu keyboard shortcuts:
 Long hold of SUPER Key (WINDOWS Key)
 
 
-iss-vm version 1.0.0
-Copyright (C) 2017-2018 GU Zhan (Sam) 
+Copyright © 2018 GU Zhan (Sam) 
 SOME RIGHTS RESERVED
 zhan.gu@nus.edu.sg
 
