@@ -123,6 +123,7 @@ source activate iss-env-py3
 
 conda install scikit-learn
 conda install matplotlib
+conda install theano
 conda install tensorflow
 conda install keras
 conda install seaborn
@@ -277,14 +278,20 @@ sudo usermod -G vboxsf -a iss-user
 This Ubuntu 16.04 contains contains:
 
 Anaconda Version 5:
-Python 3.6 & 2.7
+Python 3.6 in conda environment: iss-env-py3
+Python 2.7 in conda environment: iss-env-py2
 Jupyter Notebook
 Jupyter R kernel
 Spyder
+Orange
 scikit-learn
+tensorflow
+theano
 keras
+kaggle-cli
 conda
 pip
+nltk & nltk data --- nltk.download('popular')
 and many more...
 R
 R Studio
@@ -293,7 +300,8 @@ CLIPS (Rule Based Expert System)
 Git (Git Bash)
 Solver (Nonlinear Programming / Genetic Algorithms)
 MySQL
-
+Google Cloud SDK: gcloud & datalab 
+Google APIs Client Library for Python: google-api-python-client
 
 linux machine name                  : iss-vm 
 linux user id                       : iss-user 
