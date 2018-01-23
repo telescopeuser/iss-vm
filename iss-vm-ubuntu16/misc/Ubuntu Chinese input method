@@ -1,0 +1,18 @@
+https://askubuntu.com/questions/455682/14-04-chinese-ibus-input-no-options
+
+1. I think you need to open Language Support and install Chinese(simplifed or traditional)
+
+2. You can try to install Chinese input method manually
+sudo apt-get install ibus-pinyin 
+sudo apt-get install ibus-sunpinyin
+
+3. Restart IBus daemon
+ibus restart
+
+4. 
+System Settings -> Text Entry
+ibus-setup
+
+
+http://blog.csdn.net/zhaole20094463/article/details/51464105
+
