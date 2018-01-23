@@ -277,7 +277,7 @@ sudo usermod -G vboxsf -a iss-user
 
 This iss-vm Ubuntu 16.04 contains contains:
 
-Anaconda Version 5:
+Anaconda3-5.0.1-Linux-x86_64
 Python 3.6 in conda environment: iss-env-py3
 Python 2.7 in conda environment: iss-env-py2
 Jupyter Notebook
