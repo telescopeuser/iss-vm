@@ -13,13 +13,13 @@ zhan.gu@nus.edu.sg
 * .3. Start Virtualbox software
 * .4. Click File -> Import Appliance
 
-<img src="iss-vm-ubuntu16/iss-vm-s4.png" style="float: left; margin-right: 10px;" width="900" />
+<img src="iss-vm-s4.png" style="float: left; margin-right: 10px;" width="900" />
 
 
 * .5. Click Start to use iss-vm
 * .6. Data science software are on the desktop
 
-<img src="iss-vm-ubuntu16/iss-vm-s6.png" style="float: left; margin-right: 10px;" width="900" />
+<img src="iss-vm-s6.png" style="float: left; margin-right: 10px;" width="900" />
 
 
 ### This iss-vm Ubuntu 16.04 contains contains:

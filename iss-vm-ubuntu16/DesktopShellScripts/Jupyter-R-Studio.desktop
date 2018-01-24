@@ -1,9 +1,0 @@
-[Desktop Entry]
-Version=1.0 
-Comment=This is launcher 
-Exec=/home/iss-user/.DoNotDelete/start-rstudio.sh
-#Icon=/home/iss-user/.DoNotDelete/png-RStudio.png
-Icon=/home/iss-user/.DoNotDelete/ico-RStudio.ico
-Terminal=false 
-Type=Application
-Name[en_US]=Jupyter-R-Studio
