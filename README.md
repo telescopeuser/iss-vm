@@ -90,7 +90,7 @@ SOME RIGHTS RESERVED
 zhan.gu@nus.edu.sg
 
 
-This iss?vm is free for personal usage. Please write to us for commercial usage enquiry.
+This iss-vm is free for personal usage. Please write to us for commercial usage enquiry.
 
 
 ### Your data scince road map
