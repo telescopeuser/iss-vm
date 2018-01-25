@@ -9,7 +9,7 @@ zhan.gu@nus.edu.sg
 
 ### Installation steps:
 * .1. Download and install Virtualbox software: https://www.virtualbox.org/wiki/Downloads
-* .2. Download and iss-vm virtual machine (an Appliance) from: http://bit.ly/SamGu
+* .2. Download and iss-vm virtual machine (an Appliance) from: http://bit.ly/iss-vm-v09
 
 * **[Note] Please check/ensure the 'virtualization' option is enabled in your computer's BIOS/hardware (Google it if not sure)**
 
