@@ -9,7 +9,7 @@ zhan.gu@nus.edu.sg
 
 ### Installation steps:
 * .1. Download and install Virtualbox software: https://www.virtualbox.org/wiki/Downloads
-* .2. Download and iss-vm virtual machine (an Appliance) from: http://bit.ly/iss-vm-v09
+* .2. Download and iss-vm virtual machine (an Appliance) from: http://bit.ly/iss-vm-v1.0.11
 
 * **[Note] Please check/ensure the 'virtualization' option is enabled in your computer's BIOS/hardware (Google it if not sure)**
 
@@ -51,6 +51,7 @@ zhan.gu@nus.edu.sg
 * Google Cloud SDK: gcloud & datalab 
 * Google APIs Client Library for Python: google-api-python-client
 * Weka
+* DeepMind PySC2 - StarCraft II Learning Environment
 
 ---
 
