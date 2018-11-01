@@ -3,13 +3,21 @@
 
 zhan.gu@nus.edu.sg
 
-<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/5/005/082/25a/083eb2e.jpg" style="float: left; margin-right: 100px;" width="150" />
+<img src="https://www.iss.nus.edu.sg/images/default-source/About-Us/7.6.1-teaching-staff/sam-website.tmb-.png" style="float: left; margin-right: 100px;" width="150" />
 
 # < User Guide for iss-vm >
 
 ### Installation steps:
 * .1. Download and install Virtualbox software: https://www.virtualbox.org/wiki/Downloads
-* .2. Download and iss-vm virtual machine (an Appliance) from: http://bit.ly/iss-vm-v16
+* .2. Download and iss-vm virtual machine (an Appliance) from: 
+
+
+http://bit.ly/iss-vm-v17a   ( part 1 about 11 GB in file size )
+
+
+http://bit.ly/iss-vm-v17b   ( part 2 about 10 GB in file size )
+
+
 
 * **[Note] Please check/ensure the 'virtualization' option is enabled in your computer's BIOS/hardware (Google it if not sure)**
 
@@ -27,13 +35,13 @@ zhan.gu@nus.edu.sg
 
 ### This iss-vm Ubuntu 16.04 contains contains:
 
-* Anaconda3-5.0.1-Linux-x86_64
+* Anaconda-Linux-x86_64
 * Python 3.6 in conda environment: iss-env-py3
 * Python 2.7 in conda environment: iss-env-py2
 * Jupyter Notebook
 * Jupyter R kernel
 * Spyder
-* Orange3
+* Orange
 * scikit-learn
 * tensorflow
 * pytorch
@@ -52,6 +60,25 @@ zhan.gu@nus.edu.sg
 * Google APIs Client Library for Python: google-api-python-client
 * Weka
 * DeepMind PySC2 - StarCraft II Learning Environment
+* ROS Kinetic
+* MongoDB Node.js npm
+* TagUI
+* spaCy
+* Orange3-Associate
+* Docker
+* JBoss KIE 7.12
+* Eclipse IDE
+* Maven
+* durable-rules
+* Redis
+* casperjs (and phantomjs) on ubuntu
+* pip install face_recognition
+* Sikuli: visual recognition to automate desktop applications
+* wmctrl
+* xdotool
+* tensorflow 1.11
+* Robotic Operating System (ROS) Kinetic
+
 
 ---
 
