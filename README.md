@@ -1,23 +1,12 @@
-﻿
-### 顾 瞻 GU Zhan (Sam)
-
-zhan.gu@nus.edu.sg
-
-<img src="https://www.iss.nus.edu.sg/images/default-source/About-Us/7.6.1-teaching-staff/sam-website.tmb-.png" style="float: left; margin-right: 100px;" width="150" />
-
-# < User Guide for iss-vm >
+﻿# < User Guide for iss-vm >
 
 ### Installation steps:
 * .1. Download and install Virtualbox software: https://www.virtualbox.org/wiki/Downloads
 * .2. Download and iss-vm virtual machine (an Appliance) from: 
 
+	http://bit.ly/iss-vm-v18a   ( part 1 about 13 GB in file size )
 
-http://bit.ly/iss-vm-v17a   ( part 1 about 11 GB in file size )
-
-
-http://bit.ly/iss-vm-v17b   ( part 2 about 10 GB in file size )
-
-
+	http://bit.ly/iss-vm-v18b   ( part 2 about 13 GB in file size )
 
 * **[Note] Please check/ensure the 'virtualization' option is enabled in your computer's BIOS/hardware (Google it if not sure)**
 
@@ -121,12 +110,12 @@ zhan.gu@nus.edu.sg
 
 This iss-vm is free for personal usage; Please write to us for commercial usage enquiry.
 
-
-### Your data scince road map
-
-<img src="https://s3-eu-west-1.amazonaws.com/fayimora.com/2017/04/RoadToDataScientist1.png"
-     style="float: left; margin-right: 0px;" />
-
-https://s3-eu-west-1.amazonaws.com/fayimora.com/2017/04/RoadToDataScientist1.png
-
 ---
+
+<img align="right" src='http://www.aisp.sg/images/APP/ISS.jpg' width=25%>
+
+**Author: [GU Zhan (Sam)](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan "GU Zhan (Sam)")**
+
+[![alt text](https://www.iss.nus.edu.sg/images/default-source/About-Us/7.6.1-teaching-staff/sam-website.tmb-.png "Let's check Sam' profile page")](https://www.iss.nus.edu.sg/about-us/staff/detail/201/GU%20Zhan)
+
+**zhan.gu@nus.edu.sg**
