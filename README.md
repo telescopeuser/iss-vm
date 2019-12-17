@@ -10,7 +10,7 @@
 
 	http://bit.ly/iss-vm-v20c   ( part 3 about 11 GB in file size )
 
-* .7. Put all three zip files in same folder; select the first file iss-vm-vNN.zip.001; use tools like 7-zip to uncompress. https://www.7-zip.org/download.html
+* .3. Put all three zip files in same folder; select the first file iss-vm-vNN.zip.001; use tools like 7-zip to uncompress. https://www.7-zip.org/download.html
 
 * **[Note] Please check/ensure the 'virtualization' option is enabled in your computer's BIOS/hardware (Google it if not sure)**
 
@@ -97,7 +97,7 @@ MySQL root user password 	: iss-user
 
 VirtualBox shared folder in guest (iss-vm linux) operating system: /media/sf_vm_shared_folder 
 
-VirtualBox shared folder in host operating system: D:\0020_vm_disk\vm_shared_folder 
+VirtualBox shared folder in host operating system: E:\0020_vm_disk\vm_shared_folder 
 
 To display linux/ubuntu keyboard shortcuts: Long hold of SUPER Key (WINDOWS Key)
 
