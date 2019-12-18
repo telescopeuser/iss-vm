@@ -8,7 +8,7 @@
 
 	http://bit.ly/iss-vm-v20b   ( part 2 about 11 GB in file size )
 
-	http://bit.ly/iss-vm-v20c   ( part 3 about 11 GB in file size )
+	http://bit.ly/iss-vm-v20c   ( part 3 about 10 GB in file size )
 
 * .3. Put all three zip files in same folder; select the first file iss-vm-vNN.zip.001; use tools like 7-zip to uncompress. https://www.7-zip.org/download.html
 
@@ -31,7 +31,6 @@
 * Anaconda-Linux-x86_64
 * casperjs (and phantomjs) on ubuntu
 * CLIPS (Rule Based Expert System)
-* conda
 * DeepMind PySC2 - StarCraft II Learning Environment
 * Docker
 * durable-rules
@@ -53,6 +52,7 @@
 * pip install face_recognition
 * Python 2.7 in conda environment: iss-env-py2
 * Python 3.6 in conda environment: iss-env-py3
+* R 3.6.1 in conda environment: iss-env-py3
 * pytorch
 * R 3.6.1
 * R Rattle
@@ -68,7 +68,6 @@
 * TagUI
 * TagUI-Python
 * tensorflow
-* tensorflow 1.11
 * Weka
 * wmctrl
 * xdotool
