@@ -1,4 +1,4 @@
-﻿# < User Guide for ai-vm Ubuntu 20.04 >
+# < User Guide for ai-vm Ubuntu 20.04 >
 
 ### Installation steps:
 * .1. Download and install Virtualbox software: https://www.virtualbox.org/wiki/Downloads
@@ -18,8 +18,8 @@
 
 * .6. Click Start to use ai-vm
 
-`user id: ai-vm`
-`password: ai-vm`
+`user id: ai-user`
+`password: ai-user`
 
 <img src="ai-vm-s1.png" style="float: left; margin-right: 10px;" width="900" />
 
@@ -49,8 +49,8 @@
 
 * .6. Click Start to use iss-vm
 
-`user id: iss-vm`
-`password: iss-vm`
+`user id: iss-user`
+`password: iss-user`
 
 * .7. Data science software are on the desktop
 
